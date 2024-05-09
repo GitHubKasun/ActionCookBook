@@ -11,7 +11,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4.1.0
       - uses: devops-actions/actionlint@v0.1.2
-      - run: echo "PR title is '${{ github.event.pull_request.title }}'."
+     # - run: echo "PR title is '${{ github.event.pull_request.title }}'."
 
       - run: |
           echo "::debug::This is a debug message."
